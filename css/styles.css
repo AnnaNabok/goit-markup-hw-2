@@ -10,8 +10,6 @@ body {
   background-color: var(--light-background-color);
   color: var(--medium-text-color);
 }
-.page-header {
-}
 
 li {
   list-style: none;
@@ -82,8 +80,9 @@ li {
   background-color: #f5f4fa;
 }
 
-/* portfolio */
+/* portfolio
 .portfolio a:hover,
-.portfolio a:focus: {  color: var(--light-text-color);
+.portfolio a:focus: {
+  color: var(--light-text-color);
   background-color: var(--accent-color);
-}}
+} */
