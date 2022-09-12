@@ -61,3 +61,25 @@ li {
 .footer > .address-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* buttons */
+.button {
+  color: var(--dark-text-color);
+  background-color: var(--light-background-color);
+}
+
+.button.primary {
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--dark-text-color);
+  background-color: #f5f4fa;
+}
+
+/* portfolio */
+.portfolio a:hover,
+.portfolio a:focus: {  color: var(--light-text-color);
+  background-color: var(--accent-color);
+}}
