@@ -32,6 +32,10 @@ li {
   color: var(--dark-text-color);
 }
 
+/* .site-nav .link.currernt {
+  color: var(--dark-text-color);
+} */
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
