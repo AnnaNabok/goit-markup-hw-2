@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--light-background-color);
+  background-color: var(--light-text-color);
   color: var(--medium-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -67,6 +67,7 @@ letter-spacing: 0.02em;
 .hero {
   color: var(--light-text-color);
   text-align: center;
+  background-color: #2F303A;
 }
 
 .hero > h1 {
@@ -77,9 +78,35 @@ letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
+.hero.button {
+    font-family: Roboto, sans-serif;
+}
+
+/* .hero.button:hover,
+.hero.button:focus {
+    background-color: #......; Чекаю на скріншот, де в макеті подивитися
+} */
+
 .advantages {
     font-size: 14px;
 }
+
+.advantages h3 {
+    font-size: 14px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} 
 
 .advantages h3 {
     font-weight: 700;
@@ -88,7 +115,7 @@ text-transform: uppercase;
 }
 
 .advantages p {
-    line-height: 0.17;
+    line-height: 1.71;
 }
 
 h2 {
@@ -107,10 +134,28 @@ line-height: 1.17;
 
 .team {
     line-height: 1.19;
+    background-color: #F5F4FA;
+}
+
+.team li {
+    background-color: var(--light-text-color);
 }
 
 .team h3 {
     font-weight: 500;
+    font-size: 16px;
+}
+
+.portfolio {
+    background-color: var(--light-background-color);
+}
+
+.portfolio li {
+    background-color: var(--light-text-color);
+}
+
+.portfolio .button {
+    font-family: Roboto, sans-serif;
 }
 
 .portfolio h3 {
@@ -122,10 +167,15 @@ letter-spacing: 0.06em;
 
 .portfolio p {
     line-height: 1.88;
+    color: var(--medium-text-color);
 }
 
 .logo-white-secondpart {
   color: var(--light-text-color);
+}
+
+.footer {
+    background-color: #2F303A;
 }
 
 .footer .address {
