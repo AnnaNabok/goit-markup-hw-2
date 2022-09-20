@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --dark-text-color: #212121;
   --medium-text-color: #757575;
@@ -13,7 +19,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-body li {
+.list {
   list-style: none;
 }
 .link {
@@ -43,9 +49,9 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-/* .site-nav .link.currernt {
-  color: var(--dark-text-color);
-} */
+.site-nav .link.current{
+  color: var(--accent-color);
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus,
